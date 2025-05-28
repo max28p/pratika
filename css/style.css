@@ -24,13 +24,13 @@ header {
   background-color: #208b19;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 
 .header-h1-exampl {
   color: #000;
   font-size: 35px;
-  margin-left: 15px;
+  margin-left: 15px !important;
 }
 
 .header-span-exampl {
@@ -80,27 +80,8 @@ header {
   border: 2px #000 outset;
 }
 
-.menu {
-  float: left;
-  width: 30%;
-  height: 100px;
-}
-
-.menu-container {
-  width: 250px;
-}
-
-/*main {
-  background-color: #4f4d4f;
-  float: right;
-  width: 70%;
-  height: 100px;
-}
-
-
-
 footer {
   background-color: #fff;
   width: 100%;
   height: 50px;
-} */
+}
