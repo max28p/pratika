@@ -6,9 +6,11 @@ header {
 }
 
 .header-logo-container {
+  display: flex;
   float: left;
   width: 50%;
   height: 100%;
+  align-items: center;
 }
 
 .header-logo {
@@ -22,15 +24,21 @@ header {
   background-color: #208b19;
   align-items: center;
   justify-content: center;
+  margin-left: 30px;
 }
 
 .header-h1-exampl {
   color: #000;
   font-size: 35px;
+  margin-left: 15px;
 }
 
 .header-span-exampl {
   color: #4f4d4f;
+}
+
+.header_logo-p {
+  font-size: 14px;
 }
 
 .header-contact-container {
@@ -54,6 +62,7 @@ header {
 
 .header-p-contact_phon {
   color: #4f4d4f;
+  font-size: 14px;
 }
 
 .header-icon-contact {
@@ -63,8 +72,35 @@ header {
   margin-left: 5px;
 }
 
-nav {
-  width: 100%;
-  height: 60px;
-  background-color: #3e3e3e;
+.navbar {
+  height: 50px;
 }
+
+.nav-item {
+  border: 2px #000 outset;
+}
+
+.menu {
+  float: left;
+  width: 30%;
+  height: 100px;
+}
+
+.menu-container {
+  width: 250px;
+}
+
+/*main {
+  background-color: #4f4d4f;
+  float: right;
+  width: 70%;
+  height: 100px;
+}
+
+
+
+footer {
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+} */
