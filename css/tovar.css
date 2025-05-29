@@ -8,3 +8,16 @@
     margin-top: 25px !important;
     margin-bottom: 15px !important;
 }
+
+.tovar {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px #cccccc solid;
+  margin-right: 30px !important;
+  margin-top: 30px !important;
+}
+
+.disable-list {
+  display: none;
+}
