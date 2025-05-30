@@ -21,3 +21,12 @@
 .disable-list {
   display: none;
 }
+
+.button-switch {
+
+}
+
+.active-button-switch {
+  background-color: #41b038;
+  color: #fff;
+}

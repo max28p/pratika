@@ -302,16 +302,17 @@
             </div>
           </div>
         </div>
-        <button>Предыдущая</button>
-        <button onclick="oneListBut()">1</button>
-        <button onclick="twoListBut()">2</button>
-        <button onclick="threeListBut()">3</button>
-        <button>Следующая</button>
+        <button class="button-switch" id="previousBut" onclick="previous()">Предыдущая</button>
+        <button class="button-switch active-button-switch" id="oneListBut" onclick="oneListBut()">1</button>
+        <button class="button-switch" id="twoListBut" onclick="twoListBut()">2</button>
+        <button class="button-switch" id="threeListBut" onclick="threeListBut()">3</button>
+        <button class="button-switch" id="nextBut" onclick="next()">Следующая</button>
       </div>
     </div>
   </div>
 </main>
 <footer></footer>
 </body>
+<script src="./script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </html>
