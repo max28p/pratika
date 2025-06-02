@@ -3,7 +3,6 @@ const listTwo = document.getElementById("list-two")
 const listThree = document.getElementById("list-three");
 let numberList = 1;
 buttonlogic();
-buttonSwitch();
 
 function oneListBut() {
     listOne.classList.remove("disable-list");
@@ -21,6 +20,7 @@ function twoListBut() {
     numberList = 2;
     buttonlogic();
     buttonSwitch();
+    next();
 }
 
 function threeListBut() {
@@ -30,6 +30,7 @@ function threeListBut() {
     numberList = 3;
     buttonlogic();
     buttonSwitch();
+    next();
 }
 
 function buttonlogic() {
@@ -65,5 +66,41 @@ function buttonSwitch() {
         oneListButton.classList.remove("active-button-switch");
         twoListButton.classList.remove("active-button-switch");
         threeListButton.classList.add("active-button-switch");
+    }
+}
+
+function next() {
+    if (numberList === 1) {
+        listOne.classList.add("disable-list");
+        listTwo.classList.remove("disable-list");
+        listThree.classList.add("disable-list");
+        numberList = 2;
+        buttonlogic();
+        buttonSwitch();
+    } else if (numberList === 2) {
+        listOne.classList.add("disable-list");
+        listTwo.classList.add("disable-list");
+        listThree.classList.remove("disable-list");
+        numberList = 3;
+        buttonlogic();
+        buttonSwitch();
+    }
+}
+
+function previous() {
+    if (numberList === 2) {
+        listOne.classList.remove("disable-list");
+        listTwo.classList.add("disable-list");
+        listThree.classList.add("disable-list");
+        numberList = 1;
+        buttonlogic();
+        buttonSwitch();
+    } else if (numberList === 3) {
+        listOne.classList.add("disable-list");
+        listTwo.classList.remove("disable-list");
+        listThree.classList.add("disable-list");
+        numberList = 2
+        buttonlogic();
+        buttonSwitch();
     }
 }

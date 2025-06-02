@@ -23,7 +23,10 @@
 }
 
 .button-switch {
-
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  background-color: #fff;
+  border: 1px #cccccc solid;
 }
 
 .active-button-switch {
