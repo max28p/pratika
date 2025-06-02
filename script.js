@@ -69,38 +69,38 @@ function buttonSwitch() {
     }
 }
 
-function next() {
-    if (numberList === 1) {
-        listOne.classList.add("disable-list");
-        listTwo.classList.remove("disable-list");
-        listThree.classList.add("disable-list");
-        numberList = 2;
-        buttonlogic();
-        buttonSwitch();
-    } else if (numberList === 2) {
-        listOne.classList.add("disable-list");
-        listTwo.classList.add("disable-list");
-        listThree.classList.remove("disable-list");
-        numberList = 3;
-        buttonlogic();
-        buttonSwitch();
-    }
-}
+// function next() {
+//     if (numberList === 1) {
+//         listOne.classList.add("disable-list");
+//         listTwo.classList.remove("disable-list");
+//         listThree.classList.add("disable-list");
+//         numberList = 2;
+//         buttonlogic();
+//         buttonSwitch();
+//     } else if (numberList === 2) {
+//         listOne.classList.add("disable-list");
+//         listTwo.classList.add("disable-list");
+//         listThree.classList.remove("disable-list");
+//         numberList = 3;
+//         buttonlogic();
+//         buttonSwitch();
+//     }
+// }
 
-function previous() {
-    if (numberList === 2) {
-        listOne.classList.remove("disable-list");
-        listTwo.classList.add("disable-list");
-        listThree.classList.add("disable-list");
-        numberList = 1;
-        buttonlogic();
-        buttonSwitch();
-    } else if (numberList === 3) {
-        listOne.classList.add("disable-list");
-        listTwo.classList.remove("disable-list");
-        listThree.classList.add("disable-list");
-        numberList = 2
-        buttonlogic();
-        buttonSwitch();
-    }
-}
+// function previous() {
+//     if (numberList === 2) {
+//         listOne.classList.remove("disable-list");
+//         listTwo.classList.add("disable-list");
+//         listThree.classList.add("disable-list");
+//         numberList = 1;
+//         buttonlogic();
+//         buttonSwitch();
+//     } else if (numberList === 3) {
+//         listOne.classList.add("disable-list");
+//         listTwo.classList.remove("disable-list");
+//         listThree.classList.add("disable-list");
+//         numberList = 2
+//         buttonlogic();
+//         buttonSwitch();
+//     }
+// }

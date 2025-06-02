@@ -11,11 +11,36 @@
 
 .tovar {
   width: 250px;
-  height: 250px;
+  height: 400px;
   background-color: #fff;
   border: 1px #cccccc solid;
   margin-right: 30px !important;
   margin-top: 30px !important;
+  text-align: center;
+}
+
+.tovar>img {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px !important;
+}
+
+.tovar>p {
+  line-height: 20px;
+}
+
+.tovar-sellary {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+  color: #24b81a;
+  font-size: 20px;
+}
+
+.tovar>button {
+  border: none;
+  border-radius: 5px;
+  background-color: #41b038;
+  color: #fff;
 }
 
 .disable-list {
